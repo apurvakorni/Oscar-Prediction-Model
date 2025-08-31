@@ -1,5 +1,5 @@
 # See you at the Movies!🎬- Oscar Prediction Model
-This project shows how machine learning can predict major award wins, like the Oscars, using publicly available data such as prior wins and ratings. It's interesting not just for film fans, but also because it shows how data-driven models can uncover patterns of industry recognition, spotlight systemic biases, and even challenge the traditional notion that artistic success is purely subjective.
+This project shows how machine learning can predict major award wins, like the Oscars, using publicly available data such as prior wins during award season and ratings. It's interesting not just for film fans, but also because it shows how data-driven models can uncover patterns of industry recognition, spotlight systemic biases, and even challenge the traditional notion that artistic success is purely subjective.
 
 
 ## ✨ Highlights
