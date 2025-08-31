@@ -43,17 +43,17 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 ### 3) Run the models after downloading the Test/Train data csv files
-# XGBoost 
+### XGBoost 
 ```python src/models/xgb.py```
 
-# LightGBM 
+### LightGBM 
 ```python src/models/lightgb.py```
 
-# Voting Ensemble 
+### Voting Ensemble 
 ```python src/models/voting_ensemble.py```
 
 
-🧪 Category-Aware Heuristics
+##🧪 Category-Aware Heuristics
 
 Beyond model probabilities, category-specific boosts capture real-world award signals:
 
@@ -63,7 +63,7 @@ Best Director: DGA win bump; BAFTA + Golden Globes combination bump.
 
 Acting (Actor/Actress): Higher weight for SAG wins; “most wins” & “most nominations” signals.
 
-📈 Results 
+##📈 Results 
 Ensemble achieved ~80.95% overall accuracy with F1 ≈ 0.89.
 
 Notable gains in historically tougher categories (e.g., Best Actress).
