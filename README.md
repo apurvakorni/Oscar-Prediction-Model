@@ -1,4 +1,4 @@
-# See you at the Movies!- Oscar Prediction Model
+# See you at the Movies!🎬- Oscar Prediction Model
 Predict winners in major Academy Award categories using gradient-boosted models and an ensemble model that blends **XGBoost**, **LightGBM**, and **CatBoost**.
 
 ## ✨ Highlights
