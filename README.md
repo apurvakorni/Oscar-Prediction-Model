@@ -21,21 +21,24 @@ This project shows how machine learning can predict major award wins, like the O
 
 ## 🔧 Setup
 
-### 1) Environment
+ ### 1) Environment
 - Python 3.9+ recommended
 - Create a virtual environment:
 
-'''bash 
+```
 python -m venv .venv
 # macOS/Linux
 source .venv/bin/activate
 # Windows
-# .venv\Scripts\activate
+ .venv\Scripts\activate
+```
 
 
 ### 2) Install Dependencies
+```
 # Base requirements
 pip install -r requirements.txt
+```
 
 🧪 Category-Aware Heuristics
 
