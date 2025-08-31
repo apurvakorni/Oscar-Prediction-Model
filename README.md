@@ -6,26 +6,6 @@ Predict winners in major Academy Award categories using gradient-boosted models 
 - Category-aware tweaks (e.g., **DGA** for Director, **PGA** for Picture, **SAG** emphasis for acting) to reflect award-season momentum.
 - Ensemble approach for balanced precision–recall and strong overall accuracy.
 
-## 📁 Repository Structure
-.
-├── .gitignore
-├── README.md
-├── requirements.txt
-├── requirements_full.txt # requirements + catboost (for ensemble)
-├── data/
-│ └── README.md # expected inputs and schema
-├── docs/
-│ └── Presentation-text.pdf # project notes / slides text
-├── artifacts/
-│ ├── .gitkeep
-│ └── predicted_oscar_winners.csv # (optional) sample output if present
-└── src/
-├── omdb_scrape.py
-└── models/
-├── xgb.py
-├── lightgb.py
-└── voting_ensemble.py
-
 
 > **Path note:** The training/inference scripts expect `final_train_data_scores.csv` and `final_test_data_scores.csv` in the **working directory** (repo root unless you `cd` elsewhere).  
 > The scraper expects `filtered_data.csv` in the working directory.  
