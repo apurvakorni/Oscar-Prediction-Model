@@ -27,14 +27,16 @@ This project shows how machine learning can predict major award wins, like the O
 
 ```
 python -m venv .venv
-
-# macOS/Linux
-source .venv/bin/activate
-
-# Windows
- .venv\Scripts\activate
 ```
 
+# macOS/Linux:
+```
+source .venv/bin/activate
+```
+# Windows:
+```
+ .venv\Scripts\activate
+```
 
 ### 2) Install Dependencies
 ```
