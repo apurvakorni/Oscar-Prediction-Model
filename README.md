@@ -42,6 +42,16 @@ source .venv/bin/activate
 ```
 pip install -r requirements.txt
 ```
+### 3) Run the models after downloading the Test/Train data csv files
+# XGBoost 
+```python src/models/xgb.py```
+
+# LightGBM 
+```python src/models/lightgb.py```
+
+# Voting Ensemble 
+```python src/models/voting_ensemble.py```
+
 
 🧪 Category-Aware Heuristics
 
