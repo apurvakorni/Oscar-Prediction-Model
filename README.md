@@ -7,7 +7,7 @@ This project shows how machine learning can predict major award wins, like the O
 - Category-aware tweaks (e.g., **DGA** for Director, **PGA** for Picture, **SAG** emphasis for acting) to reflect award-season momentum.
 - Ensemble approach for balanced precision–recall and strong overall accuracy.
 
-## Dataset
+## 📊 Dataset
 - For the dataset, we started by collecting award data from multiple Kaggle datasets, focusing on major shows like the Oscars, Golden Globes, SAG, and BAFTA — giving us a solid foundation of award-season context. 
 - To unify this information, we built a custom integration script that linked all award scores to Oscar-nominated films, creating a timeline of each movie’s journey across the season. We manually added in DGA and PGA data, which are especially predictive for Best Director and Best Picture.
 - For ratings, we used the OMDb API to fetch reliable IMDb and Rotten Tomatoes scores, since the Kaggle data was often incomplete or inconsistent.
