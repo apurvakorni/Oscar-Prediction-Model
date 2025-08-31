@@ -25,6 +25,7 @@ This project shows how machine learning can predict major award wins, like the O
 - Python 3.9+ recommended
 - Create a virtual environment:
 
+'''bash 
 python -m venv .venv
 # macOS/Linux
 source .venv/bin/activate
@@ -36,9 +37,6 @@ source .venv/bin/activate
 # Base requirements
 pip install -r requirements.txt
 
-# If you plan to run the ensemble (uses CatBoost)
-pip install -r requirements_full.txt
-# or: pip install catboost
 🧪 Category-Aware Heuristics
 
 Beyond model probabilities, category-specific boosts capture real-world award signals:
@@ -49,8 +47,7 @@ Best Director: DGA win bump; BAFTA + Golden Globes combination bump.
 
 Acting (Actor/Actress): Higher weight for SAG wins; “most wins” & “most nominations” signals.
 
-📈 Results (from project notes)
-
+📈 Results 
 Ensemble achieved ~80.95% overall accuracy with F1 ≈ 0.89.
 
 Notable gains in historically tougher categories (e.g., Best Actress).
