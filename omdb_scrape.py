@@ -3,7 +3,7 @@ import requests
 import time
 from tqdm import tqdm
 
-API_KEY = 'e418dc8c'  # Your OMDb key
+API_KEY = 'YOUR_API_KEY'  # Your OMDb key
 movies_df = pd.read_csv('filtered_data.csv')
 movies_df.rename(columns=lambda x: x.lower().strip(), inplace=True)
 
@@ -66,3 +66,4 @@ for _, row in tqdm(movies_df.iterrows(), total=len(movies_df)):
 ratings_df = pd.DataFrame(results)
 ratings_df.to_csv('22to25.csv', index=False)
 print("✅ Ratings scraped and saved to 22to25.csv")
+
