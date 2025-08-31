@@ -8,11 +8,11 @@ This project shows how machine learning can predict major award wins, like the O
 - Ensemble approach for balanced precision–recall and strong overall accuracy.
 
 ## Dataset
-For the dataset, we started by collecting award data from multiple Kaggle datasets, focusing on major shows like the Oscars, Golden Globes, SAG, and BAFTA — giving us a solid foundation of award-season context. 
-To unify this information, we built a custom integration script that linked all award scores to Oscar-nominated films, creating a timeline of each movie’s journey across the season. We manually added in DGA and PGA data, which are especially predictive for Best Director and Best Picture.
-For ratings, we used the OMDb API to fetch reliable IMDb and Rotten Tomatoes scores, since the Kaggle data was often incomplete or inconsistent.
-As we refined our model, we actually found that some features weren’t helping — specifically the Rotten Tomatoes scores. Instead of boosting our predictions, they were introducing noise and lowering overall accuracy. So, we made the call to remove them from our final model to improve performance.
-We also standardized data across the past 78 years, assigning unique movie IDs and converting all categorical data into a fully numeric format for model compatibility.
+-For the dataset, we started by collecting award data from multiple Kaggle datasets, focusing on major shows like the Oscars, Golden Globes, SAG, and BAFTA — giving us a solid foundation of award-season context. 
+-To unify this information, we built a custom integration script that linked all award scores to Oscar-nominated films, creating a timeline of each movie’s journey across the season. We manually added in DGA and PGA data, which are especially predictive for Best Director and Best Picture.
+-For ratings, we used the OMDb API to fetch reliable IMDb and Rotten Tomatoes scores, since the Kaggle data was often incomplete or inconsistent.
+-As we refined our model, we actually found that some features weren’t helping — specifically the Rotten Tomatoes scores. Instead of boosting our predictions, they were introducing noise and lowering overall accuracy. So, we made the call to remove them from our final model to improve performance.
+-We also standardized data across the past 78 years, assigning unique movie IDs and converting all categorical data into a fully numeric format for model compatibility.
 
 
 > **Path note:** The training/inference scripts expect `final_train_data_scores.csv` and `final_test_data_scores.csv` in the **working directory** (repo root unless you `cd` elsewhere).  
