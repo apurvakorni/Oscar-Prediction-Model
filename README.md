@@ -14,11 +14,6 @@ This project shows how machine learning can predict major award wins, like the O
 - As we refined our model, we actually found that some features weren’t helping — specifically the Rotten Tomatoes scores. Instead of boosting our predictions, they were introducing noise and lowering overall accuracy. So, we made the call to remove them from our final model to improve performance.
 - We also standardized data across the past 78 years, assigning unique movie IDs and converting all categorical data into a fully numeric format for model compatibility.
 
-
-> **Path note:** The training/inference scripts expect `final_train_data_scores.csv` and `final_test_data_scores.csv` in the **working directory** (repo root unless you `cd` elsewhere).  
-> The scraper expects `filtered_data.csv` in the working directory.  
-> Adjust paths inside scripts if you prefer a different layout.
-
 ## 🔧 Setup
 
  ### 1) Environment
