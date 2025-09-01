@@ -52,8 +52,7 @@ python src/models/lightgb.py
 ```
 python src/models/voting_ensemble.py
 ```
-
-
+## And now you have your very own Oscar Prediction Model!
 ## 🧪 Category-Aware Heuristics
 
 Beyond model probabilities, category-specific boosts capture real-world award signals:
