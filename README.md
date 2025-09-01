@@ -3,7 +3,7 @@ This project shows how machine learning can predict major award wins, like the O
 
 
 ## ✨ Highlights
-- End-to-end workflow: data integration → feature engineering → model training → threshold tuning → winner selection.
+- End-to-end workflow: data preproccessing → data integration → feature engineering → model training → threshold tuning → winner selection and prediction.
 - Category-specific precursor award weightage (e.g., **DGA** for Best Director, **PGA** for Best Picture, **SAG** for Best Actor/Best Actress) to reflect award-season momentum.
 - Ensemble approach for balanced precision–recall and strong overall accuracy.
 
